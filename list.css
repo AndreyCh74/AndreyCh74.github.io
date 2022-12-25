@@ -1,0 +1,71 @@
+@charset "WINDOWS-1251";
+
+body {
+	background-color: #00CC00;
+	background-image: url(main_bg.jpg);
+	background-attachment: fixed;
+	background-size: contain;
+}
+
+.vplayer {
+	width: 480px;
+	height: 360px;
+	border-width: thick;
+	position: fixed;
+	top: 2px;
+	right: 2px;
+	border: thin solid #00F;
+	resize: both;
+	overflow: auto;
+}
+
+.qs {
+	margin: 30px;
+}
+
+.group {
+	color: #30F;
+	margin-left: 10px;
+}
+
+p {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px 0px 5px 5px;
+	margin-left: 20px;
+}
+
+span {
+	color: #30F;
+	margin-left: 10px;
+	font-size: 18px;
+}
+
+tr:hover {
+	color: #FFF;
+	border-color: #FFF;
+	background-color: #660;
+	cursor: pointer;
+}
+
+img {
+	width: 120px;
+	height: 90px;
+}
+
+table {
+	width: 600px;
+	border-width: 1px;
+	border-collapse: collapse;
+	margin: 0px;
+}
+
+td {
+	height: 90px;
+}
+
+th {
+	width: 120px;
+	height: 0px;
+	border: 0px;
+}
